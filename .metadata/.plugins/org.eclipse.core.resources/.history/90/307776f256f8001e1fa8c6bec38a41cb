@@ -1,0 +1,10 @@
+package sistemabancario;
+
+public class ContaPoupansa extends Conta2 {
+	
+	public double Correcao (double saldo) {
+		 return saldo=saldo*1.01;
+		
+	}
+
+}

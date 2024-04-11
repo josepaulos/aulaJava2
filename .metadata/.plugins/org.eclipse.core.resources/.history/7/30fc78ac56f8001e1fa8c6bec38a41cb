@@ -1,0 +1,16 @@
+package sistemabancario;
+
+public class TestaContaPoupInvest {
+
+	public static void main(String[] args) {
+		ContaPoupansa cp = new  ContaPoupansa ();
+		ContaInvestimento ci = new  ContaInvestimento ();
+		
+		
+		
+		System.out.println("Correcão de Conta Poupança :"+cp.Correcao(1000));
+		System.out.println("Correcão de Conta Investimento :"+ci.Correcao(2000));
+
+	}
+
+}

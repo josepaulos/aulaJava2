@@ -1,0 +1,14 @@
+package sistemabancario;
+
+public class TestaControleBonus {
+
+	public static void main(String[] args) {
+		ControleBonus controle = new ControleBonus();
+		
+		Funcionario f1 = new Funcionario();
+		controle.setTotalBonus(f1);
+		System.out.println("Salarios pagos até agora: "+controle.getTotalBonus());
+
+	}
+
+}

@@ -1,0 +1,10 @@
+package sistemabancario;
+
+public class ContaInvestimento extends Conta2{
+	
+	public double Correcao (double saldo) {
+		 return saldo=saldo*1.02;
+		
+	}
+
+}
