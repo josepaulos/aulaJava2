@@ -1,14 +1,12 @@
 package sistemabancario;
 
-public  class Funcionario {
+public abstract class Funcionario {
 	protected String nome;
 	protected String cpf;
 	protected String departamento;
 	protected String dataAdmissao;
 	protected double salario;
 	protected String status;
-	
-	
 	
 	double getBonus() {
 		return this.salario * 0.10;

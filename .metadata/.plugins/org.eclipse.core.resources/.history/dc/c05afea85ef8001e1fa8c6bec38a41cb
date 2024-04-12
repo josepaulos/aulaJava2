@@ -8,8 +8,6 @@ public  class Funcionario {
 	protected double salario;
 	protected String status;
 	
-	
-	
 	double getBonus() {
 		return this.salario * 0.10;
 	}
